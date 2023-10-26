@@ -123,6 +123,14 @@ main {
   color: red;
   font-size: 12px;
   margin-bottom: 15px;
+  bottom: 50px;
+  left: 20px;
+}
+@media (min-width: 710px) {
+  .container__form--error-msg {
+    bottom: -35px;
+    left: 8rem;
+  }
 }
 .container__form--submit {
   width: 100%;

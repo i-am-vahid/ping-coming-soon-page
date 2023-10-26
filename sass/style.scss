@@ -83,6 +83,12 @@ main{
             color: red;
             font-size: 12px;
             margin-bottom: 15px;
+            bottom: 50px;
+            left: 20px;
+            @media (min-width:710px) {
+                bottom:  -35px;
+                left: 8rem;
+            }
         }
         &--submit{
             width: 100%;
@@ -93,6 +99,7 @@ main{
             background-color: var(--Blue);
             color: white;
             font-weight: bold;
+            // transform: translateY(20px);
             box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
             cursor: pointer;
             @media (min-width:710px) {
